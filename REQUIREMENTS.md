@@ -12,7 +12,7 @@ This document outlines the functional and non-functional requirements for a brow
 *   **Status Feedback**: The system must provide real-time indicators on the current state of the browser (e.g., "Loading page," "Extracting data," "Awaiting instruction").
 
 #### 2.2. AI Control & Interaction (Core Logic)
-*   **Natural Language Understanding (NLU)**: The system must interpret natural language instructions from the chat window and convert them into actionable web automation steps.
+*   ✓**Natural Language Understanding (NLU)**: The system must interpret natural language instructions from the chat window and convert them into actionable web automation steps.
 *   **Browser Control API**: An intermediary layer must be developed to receive AI-generated commands (e.g., `click(selector)`, `type(selector, text)`, `get_element(selector)`) and execute them on the controlled browser instance.
 *   **State Tracking**: The AI needs access to the current DOM state and browser history to contextually understand subsequent commands and operate within the web environment.
 
